@@ -1,0 +1,97 @@
+/*
+ * General Styles
+*/
+
+body {
+	background: url('../images/ballons2.jpg');
+	font-family: 'Coiny', cursive;
+	background-size: cover;
+	background-position: center;
+  	background-attachment: fixed;	
+}
+
+section{ 
+	border-radius: 10px 10px 10px 10px;
+	text-align: center;
+	padding: 20px;
+	line-height: 2;
+	opacity: .9;
+ }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;	
+}
+
+/*
+ * Heading Styles
+*/
+
+ h1{
+ 	font-size: 3rem;
+ }
+
+ h2{
+ 	font-size: 2rem;
+ }
+
+ h3{
+ 	font-size: 1.5rem;	
+ }
+
+/*
+ * Container Styles
+*/
+
+.container{
+	width: 630px;
+  	margin: 100px auto;
+  	
+ }
+
+.container section:nth-child(odd){
+	background: #3573FB;
+}
+
+.container section:nth-child(even){
+	background: #F01504;
+}
+
+/*
+ * Aside Styles
+*/
+
+aside.right {
+	float:right;
+}
+
+aside.left {
+	float:left;
+}
+
+/*
+ * Image Styles
+*/
+
+
+.happyimg {
+	border-radius: 20px 20px 20px 20px;
+	width: 200px;
+	height: 300px;
+}
+
+.bench{	
+	border-radius: 50%;
+	width: 150px;
+	height: 200px;
+	
+}
+
+
+.glasses{	
+	border-radius: 50%;
+	width: 160px;
+	height: 160px;
+
+}
